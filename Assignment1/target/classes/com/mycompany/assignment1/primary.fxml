@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="238.0" prefWidth="606.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.assignment1.PrimaryController">
+   <children>
+      <HBox layoutX="3.0" layoutY="161.0" prefHeight="45.0" prefWidth="458.0" style="-fx-background-color: black;" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#showLesotho" prefHeight="22.0" prefWidth="81.0" text="LESOTHO">
+               <HBox.margin>
+                  <Insets left="30.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#showFrance" prefHeight="22.0" prefWidth="81.0" text="FRANCE">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#showNetherlands" prefHeight="24.0" prefWidth="101.0" text="NETHERLANDS">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#showBelgium" prefHeight="22.0" prefWidth="81.0" text="BELGIUM">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#showYemen" prefHeight="22.0" prefWidth="81.0" text="YEMEN">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="Windows" layoutX="3.0" layoutY="5.0" prefHeight="152.0" prefWidth="600.0" style="-fx-background-color: gray; -fx-border-color: white; -fx-border-width: 2;" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0">
+         <children>
+            <HBox layoutX="47.0" layoutY="60.0" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: green;" />
+            <HBox layoutX="47.0" layoutY="94.0" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: blue;" />
+            <HBox layoutX="47.0" layoutY="77.0" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: white;" />
+            <HBox layoutX="162.0" layoutY="60.0" prefHeight="51.0" prefWidth="16.0" style="-fx-background-color: blue;" />
+            <HBox layoutX="178.0" layoutY="60.0" prefHeight="51.0" prefWidth="16.0" style="-fx-background-color: white;" />
+            <HBox layoutX="194.0" layoutY="60.0" prefHeight="51.0" prefWidth="16.0" style="-fx-background-color: red;" />
+            <HBox layoutX="395.0" layoutY="60.0" prefHeight="51.0" prefWidth="16.0" style="-fx-background-color: black;" />
+            <HBox layoutX="411.0" layoutY="60.0" prefHeight="51.0" prefWidth="16.0" style="-fx-background-color: orange;" />
+            <HBox layoutX="427.0" layoutY="60.0" prefHeight="51.0" prefWidth="16.0" style="-fx-background-color: red;" />
+            <HBox layoutX="272.0" layoutY="60.0" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: red;" />
+            <HBox layoutX="272.0" layoutY="77.0" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: white;" />
+            <HBox layoutX="272.0" layoutY="94.0" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: blue;" />
+            <HBox layoutX="503.0" layoutY="94.0" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: black;" />
+            <HBox layoutX="503.0" layoutY="60.0" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: red;" />
+            <HBox layoutX="503.0" layoutY="77.0" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: white;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Lesotho" layoutX="3.0" layoutY="5.0" prefHeight="152.0" prefWidth="594.0" style="-fx-background-color: gray; -fx-border-radius: 5; -fx-border-color: white; -fx-border-width: 2;" visible="false" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0">
+         <children>
+            <HBox layoutX="33.0" layoutY="57.0" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="160.0" />
+            <HBox layoutX="33.0" layoutY="12.0" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: blue;" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="160.0" />
+            <HBox layoutX="33.0" layoutY="101.0" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: green;" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="160.0" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="1.0" layoutY="210.0" mnemonicParsing="false" onAction="#showHome" prefHeight="24.0" prefWidth="600.0" style="-fx-background-color: RED;" text="RESET" textFill="WHITE" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="France" layoutX="3.0" layoutY="6.0" prefHeight="152.0" prefWidth="594.0" style="-fx-background-color: gray; -fx-border-radius: 5; -fx-border-color: white; -fx-border-width: 2;" visible="false" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0">
+         <children>
+            <HBox layoutX="342.0" layoutY="8.0" prefHeight="135.0" prefWidth="83.0" style="-fx-background-color: red;" />
+            <HBox layoutX="175.0" layoutY="7.0" prefHeight="135.0" prefWidth="83.0" style="-fx-background-color: blue;" />
+            <HBox layoutX="258.0" layoutY="8.0" prefHeight="135.0" prefWidth="83.0" style="-fx-background-color: white;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Netherlands" layoutX="4.0" layoutY="4.0" prefHeight="154.0" prefWidth="600.0" style="-fx-background-color: gray; -fx-border-radius: 5; -fx-border-color: white; -fx-border-width: 2;" visible="false" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0">
+         <children>
+            <HBox layoutX="33.0" layoutY="57.0" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="160.0" />
+            <HBox layoutX="33.0" layoutY="12.0" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: red;" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="160.0" />
+            <HBox layoutX="33.0" layoutY="101.0" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: blue;" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="160.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Belgium" layoutX="6.0" layoutY="5.0" prefHeight="152.0" prefWidth="594.0" style="-fx-background-color: gray; -fx-border-radius: 5; -fx-border-color: white; -fx-border-width: 2;" visible="false" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0">
+         <children>
+            <HBox layoutX="341.0" layoutY="8.0" prefHeight="135.0" prefWidth="83.0" style="-fx-background-color: red;" />
+            <HBox layoutX="175.0" layoutY="7.0" prefHeight="135.0" prefWidth="83.0" style="-fx-background-color: black;" />
+            <HBox layoutX="258.0" layoutY="8.0" prefHeight="135.0" prefWidth="83.0" style="-fx-background-color: orange;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="Yemen" layoutX="4.0" layoutY="4.0" prefHeight="152.0" prefWidth="594.0" style="-fx-background-color: gray; -fx-border-radius: 5; -fx-border-color: white; -fx-border-width: 2;" visible="false" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0">
+         <children>
+            <HBox layoutX="33.0" layoutY="57.0" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="160.0" />
+            <HBox layoutX="33.0" layoutY="12.0" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: red;" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="160.0" />
+            <HBox layoutX="33.0" layoutY="101.0" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: black;" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="160.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
